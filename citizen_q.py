@@ -1,11 +1,27 @@
 from qutip import *
+from pylab import *
 import numpy as np
 
-def draw_vectors():
+def draw_ground():
     a = [0,0,-1]
     draw_bloch(a)
-    b = [0,1,0] #/np.sqrt(2),1/np.sqrt(2)]
-    draw_bloch(b)
+
+def draw_superposition():
+    a = [0,0,-1]
+    draw_bloch(a)
+
+def ground_state():
+    psi = basis(2,1)
+    return psi
+
+def x_rotation(angle):
+    return qutip.gates.rx(angle)
+
+def show_sphere(psi):
+    sphere = Bloch()
+    sphere.zlabel=[r'|1>',r'|0>']
+    sphere.add_states(psi)
+    sphere.show()
 
 def draw_bloch(vector):
     sphere=Bloch()
