@@ -7,4 +7,4 @@ simple tutorial.
 Please be aware that the server launch is slow from the current
 service. This can be much faster in a production environment.
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/pschindler/q_tutorial/master?filepath=f)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/pschindler/q_tutorial/master?filepath=from_bits_to_qubits.ipynb)
