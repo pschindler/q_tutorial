@@ -7,7 +7,7 @@ def draw_ground():
     draw_bloch(a)
 
 def draw_superposition():
-    a = [0,0,-1]
+    a = [0,1,0]
     draw_bloch(a)
 
 def ground_state():
