@@ -10,3 +10,4 @@ dependencies:
 - qutip>=4.2.0
 - bokeh
 - rise
+- hide_code
